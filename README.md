@@ -1,4 +1,4 @@
- IH Cantabria – Coastal Flooding and Adaptation
+ # IH Cantabria – Coastal Flooding and Adaptation
  
 A toolbox for coastal flooding assessment and climate adaptation analysis, developed by [IH Cantabria](https://github.com/IHCantabria).
  
@@ -33,8 +33,40 @@ From inside the project folder, run the following commands to create the environ
 ```bash
 mamba create -n coastal-flooding python=3.11 -y
 mamba activate coastal-flooding
-mamba install geopandas rasterio fiona contextily -y
+mamba install geopandas rasterio fiona contextily jupyterlab -y
 pip install -r requirements.txt
+```
+ 
+All required packages are now installed in a self-contained environment called `coastal-flooding`. Always activate it before working:
+ 
+```bash
+mamba activate coastal-flooding
+```
+ 
+Your terminal prompt should now start with `(coastal-flooding)`.
+ 
+> ⚠️ **If errors are raised during installation**, clean up and retry:
+> ```bash
+> mamba clean --all
+> mamba update conda
+> ```
+ 
+---
+ 
+## 🚀 2. Usage
+ 
+The main entry point is the Jupyter Notebook:
+ 
+📓 **`IH Cantabria - Coastal Flooding and Adaptation.ipynb`**
+ 
+To launch it, open the Miniforge Prompt, activate the environment, and start JupyterLab:
+ 
+```bash
+mamba activate coastal-flooding
+jupyter lab
+```
+ 
+A browser window will open. Navigate to the repository folder and open the notebook. Run cells sequentially with **Shift + Enter**.
 ```
  
 All required packages are now installed in a self-contained environment called `coastal-flooding`. Always activate it before working:
