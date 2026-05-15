@@ -6,11 +6,22 @@ A toolbox for coastal flooding assessment and climate adaptation analysis, devel
  
 ## 📦 1. Installation
  
-### 1.1 Create an environment with Mamba/Anaconda
+### 1.1 Clone the repository
+ 
+Start by cloning the repository and navigating into the project folder:
+ 
+```bash
+git clone https://github.com/IHCantabria/IH-Cantabria-Coastal-Flooding-and-Adaptation.git
+cd IH-Cantabria-Coastal-Flooding-and-Adaptation
+```
+ 
+---
+ 
+### 1.2 Create an environment with Mamba/Anaconda
  
 To run the toolbox you first need to install the required Python packages in an environment. It is highly recommended to use **Mamba**. Go to [https://github.com/conda-forge/miniforge](https://github.com/conda-forge/miniforge) and download Miniforge for your operating system.
  
-Once installed, open the **Miniforge Prompt** (on Mac/Linux, open a terminal) and run the following commands:
+Once installed, open the **Miniforge Prompt** (on Mac/Linux, open a terminal), navigate to the project folder, and run the following commands:
  
 ```bash
 mamba create -n coastal-flooding python=3.11 -y
@@ -37,15 +48,6 @@ Your terminal prompt should now start with `(coastal-flooding)`.
  
 ---
  
-### 1.2 Clone the repository
- 
-```bash
-git clone https://github.com/IHCantabria/IH-Cantabria-Coastal-Flooding-and-Adaptation.git
-cd IH-Cantabria-Coastal-Flooding-and-Adaptation
-```
- 
----
- 
 ## 🚀 2. Usage
  
 The main entry point is the Jupyter Notebook:
@@ -56,6 +58,10 @@ To launch it, open the Miniforge Prompt, activate the environment, and start Jup
  
 ```bash
 mamba activate coastal-flooding
+jupyter lab
+```
+ 
+A browser window will open. Navigate to the repository folder and open the notebook. Run cells sequentially with **Shift + Enter**.
 jupyter lab
 ```
  
