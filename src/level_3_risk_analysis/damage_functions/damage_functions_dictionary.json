@@ -1,0 +1,240 @@
+{
+  "functions": [
+    {
+      "name": "basic_pop",
+      "application": "Relative",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        6.0
+      ],
+      "interpolation_type": "previous",
+      "units": "people",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Residential_buildings_AFRICA_Morocco_Building_total",
+      "origen": "Huizinga, J., De Moel, H. and Szewczyk, W., Global flood depth-damage functions: Methodology and the database with guidelines, EUR 28552 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-67781-6, doi:10.2760/16510, JRC105688.",
+      "region": "Morocco",
+      "property type": "Residential building",
+      "application": "Absolute",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "interpolation_type": "linear",
+      "asset": "Building total",
+      "units": "€/m2",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        61.02216519888077,
+        104.94568152211069,
+        147.2212598575411,
+        176.368575704188,
+        226.67429042849662,
+        250.67382197807004,
+        265.5786815632401,
+        277.46756372856447
+      ]
+    },
+    {
+      "name": "Residential_buildings_AFRICA_Morocco_Building_total_reduced",
+      "origen": "Huizinga, J., De Moel, H. and Szewczyk, W., Global flood depth-damage functions: Methodology and the database with guidelines, EUR 28552 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-67781-6, doi:10.2760/16510, JRC105688.",
+      "region": "Morocco",
+      "property type": "Residential building",
+      "application": "Absolute",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "interpolation_type": "linear",
+      "asset": "Building total",
+      "units": "€/m2",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        54.919948679,
+        94.4511133699,
+        132.4991338718,
+        158.7317181338,
+        204.0068613856,
+        225.6064397803,
+        239.0208134069,
+        249.7208073557
+      ]
+    },
+    {
+      "name": "Commercial_buildings_GLOBAL_Morocco_Building_total",
+      "origen": "Huizinga, J., De Moel, H. and Szewczyk, W., Global flood depth-damage functions: Methodology and the database with guidelines, EUR 28552 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-67781-6, doi:10.2760/16510, JRC105688.",
+      "region": "Morocco",
+      "property type": "Commercial building",
+      "application": "Absolute",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "interpolation_type": "linear",
+      "asset": "Building total",
+      "units": "(€/m2, 2010)",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        133.9939822026871,
+        209.9365881592412,
+        263.01515499711115,
+        308.4873669573345,
+        358.1329164030225,
+        386.60436548485995,
+        405.23804188704395,
+        414.46105702313736
+      ]
+    },
+    {
+      "name": "Commercial_buildings_GLOBAL_Morocco_Building_total_reduced",
+      "origen": "Huizinga, J., De Moel, H. and Szewczyk, W., Global flood depth-damage functions: Methodology and the database with guidelines, EUR 28552 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-67781-6, doi:10.2760/16510, JRC105688.",
+      "region": "Morocco",
+      "property type": "Commercial building",
+      "application": "Absolute",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "interpolation_type": "linear",
+      "asset": "Building total",
+      "units": "(€/m2, 2010)",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        120.5945839824,
+        188.9429293433,
+        236.7136394974,
+        277.6386302616,
+        322.3196247627,
+        347.9439289364,
+        364.7142376983,
+        373.0149513208
+      ]
+    },
+    {
+      "name": "Industrial_buildings_AFRICA_Morocco_Building_total",
+      "origen": "Huizinga, J., De Moel, H. and Szewczyk, W., Global flood depth-damage functions: Methodology and the database with guidelines, EUR 28552 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-67781-6, doi:10.2760/16510, JRC105688.",
+      "region": "Morocco",
+      "property type": "Industrial building",
+      "application": "Absolute",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "interpolation_type": "linear",
+      "asset": "Building total",
+      "units": "(€/m2, 2010)",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        22.98250178124354,
+        90.63494604899154,
+        147.88177994471084,
+        181.30528882328747,
+        251.02922677292665,
+        336.80286146953574,
+        366.6520863439557,
+        366.6520863439557
+      ]
+    },
+    {
+      "name": "Industrial_buildings_AFRICA_Morocco_Building_total_reduced",
+      "origen": "Huizinga, J., De Moel, H. and Szewczyk, W., Global flood depth-damage functions: Methodology and the database with guidelines, EUR 28552 EN, Publications Office of the European Union, Luxembourg, 2017, ISBN 978-92-79-67781-6, doi:10.2760/16510, JRC105688.",
+      "region": "Morocco",
+      "property type": "Industrial building",
+      "application": "Absolute",
+      "type": "interpolation",
+      "x": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "interpolation_type": "linear",
+      "asset": "Building total",
+      "units": "(€/m2, 2010)",
+      "variables": [
+        "x"
+      ],
+      "values": [
+        0.0,
+        20.6842516031,
+        81.5714514441,
+        133.0936019502,
+        163.174759941,
+        225.9263040956,
+        303.1225753226,
+        329.9868777096,
+        329.9868777096
+      ]
+    }
+  ]
+}
