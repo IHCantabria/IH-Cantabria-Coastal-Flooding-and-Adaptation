@@ -33,7 +33,7 @@ From inside the project folder, run the following commands to create the environ
 ```bash
 mamba create -n coastal-flooding python=3.11 -y
 mamba activate coastal-flooding
-mamba install geopandas rasterio fiona contextily jupyterlab -y
+mamba install geopandas rasterio rasterstats fiona contextily jupyterlab -y
 pip install -r requirements.txt
 ```
  
